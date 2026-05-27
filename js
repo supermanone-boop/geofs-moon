@@ -7,7 +7,7 @@
 
     // 月のテクスチャ差し替え
     moon.textureUrl =
-        "https://data.geo-fs.com/osm/{z}/{x}/{y}.png";
+        "https://raw.githubcontent.com/supermanone-boop/models/main/lroc_color_2k.jpg";
 
     // 太陽ライティング影響調整
     moon.onlySunLighting = false;

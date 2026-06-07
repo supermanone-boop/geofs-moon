@@ -7,7 +7,7 @@
 
     // 月のテクスチャ差し替え
     moon.textureUrl =
-        "https://raw.githubcontent.com/supermanone-boop/models/main/lroc_color_2k.jpg";
+        "https://raw.githubusercontent.com/supermanone-boop/models/main/lroc_color_2k.jpg";
 
     // 太陽ライティング影響調整
     moon.onlySunLighting = false;
@@ -22,7 +22,7 @@
         moon.show = true;
 
         // 巨大化（半径スケール）
-        const r = 1737400 * 48;
+        const r = 1737400 * 480;
 
         moon._ellipsoidPrimitive.radii =
             new Cesium.Cartesian3(r, r, r);
